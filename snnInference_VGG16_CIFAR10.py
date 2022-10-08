@@ -12,7 +12,7 @@ T = 32
 print(T)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-batch_size = 128
+batch_size = 256
 
 model_save_name = './MyWeights/VGG16_CIFAR10_state_dict-bn-.pth'
 data_path = './raw/'  # dataset path
